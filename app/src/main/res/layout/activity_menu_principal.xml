@@ -7,7 +7,7 @@
     tools:context=".Menu_principal">
 
     <Button
-        android:id="@+id/proveedores"
+        android:id="@+id/btnproveedores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -16,10 +16,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ventas" />
+        app:layout_constraintTop_toBottomOf="@+id/btnventas" />
 
     <Button
-        android:id="@+id/ventas"
+        android:id="@+id/btnventas"
         android:layout_width="149dp"
         android:layout_height="49dp"
         android:layout_marginTop="48dp"
@@ -28,10 +28,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/productos" />
+        app:layout_constraintTop_toBottomOf="@+id/btnproductos" />
 
     <Button
-        android:id="@+id/productos"
+        android:id="@+id/btnproductos"
         android:layout_width="152dp"
         android:layout_height="53dp"
         android:layout_marginTop="116dp"
